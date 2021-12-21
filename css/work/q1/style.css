@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.box {
+.q1_box {
   float: left;
   margin-left: 30px;
   padding: 20px;
@@ -9,11 +9,11 @@
   box-sizing: border-box;
 }
 
-.box:first-child {
+.q1_box:first-child {
   margin: 0;
 }
 
-.text {
+.q1_text {
   padding: 20px;
   font-size: 16px;
   line-height: 16px;
