@@ -50,5 +50,15 @@
   display: flex;
   justify-content: space-between;
 }
+
+.q5_white_calc{
+  width: calc((100% - 50px)/3);
+  margin-left: 25px;
+}
+
+.q5_white_calc:first-child{
+  margin-left: 0;
+}
+
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
