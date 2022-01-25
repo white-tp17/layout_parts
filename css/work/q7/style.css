@@ -16,22 +16,23 @@
   word-break:break-all;
 }
 
-.q7_bubble:before{
-  position:absolute;
-  content: "";
-  bottom:25px;
+.q7_bubble:before,
+.q7_bubble:after {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 0;
+  height: 0;
   border: 20px solid transparent;
+  content: "";
+}
+
+.q7_bubble:before {
   left: -45px;
   border-right-color: #222;
 }
 
-.q7_bubble:after{
-  position: absolute;
-  content: "";
-  bottom: 25px;
-  width: 0;
-  height: 0;
-  border: 20px solid transparent;
+.q7_bubble:after {
   left: -38px;
   border-right-color: #fff;
 }
