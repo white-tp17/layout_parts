@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
-.q7_inner{
+.q7_inner {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.q7_bubble{
+.q7_bubble {
   position: relative;
-  width:500px;
+  width: 500px;
   padding: 20px;
   margin-left: 35px;
   border: 5px solid #222;
   border-radius: 30px;
-  word-break:break-all;
+  word-break: break-all;
 }
 
 .q7_bubble:before,

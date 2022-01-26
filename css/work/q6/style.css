@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-.q6_flex{
-  display:flex;
-
+.q6_flex {
+  display: flex;
+  justify-content:  center;
 }
 
-.q6_img_box{
-  width:300px;
-  height:200px;
-  margin-left:50px;
-  position:relative;
+.q6_img_box {
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+  position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 
-.q6_box:first-child{
-  margin-left:0;
+.q6_box:first-child {
+  margin-left: 0;
 }
 
 .q6_img_big:hover .q6_img  {
@@ -23,16 +23,16 @@
 }
 
 
-.q6_img{
-  width:100%;
-  height:100%;
+.q6_img {
+  width: 100%;
+  height: 100%;
   transition: all .5s;
 }
 
 .q6_img_box.q6_img_slideup:hover .q6_text {
   bottom: 0;
 }
-.q6_text{
+.q6_text {
   position: absolute;
   bottom: -100%;
   left: 0;
@@ -42,7 +42,7 @@
   transition: all .5s;
 }
 
-.q6_text p{
+.q6_text p {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -53,12 +53,12 @@
   word-break: break-all;
 }
 
-.layout_key_visual{
+.layout_key_visual {
   overflow: hidden;
   position: relative;
 }
 
-.layout_key_visual p{
+.layout_key_visual p {
   height: 100%;
   font-size: 200px;
   display: inline-block;
@@ -71,11 +71,11 @@
   box-sizing: border-box;
 }
 
-.layout_key_visual_text p{
+.layout_key_visual_text p {
   animation: loop 10s linear infinite;
 }
 
-@keyframes loop{
+@keyframes loop {
   0%{
     transform: translateX(100%);
   }
